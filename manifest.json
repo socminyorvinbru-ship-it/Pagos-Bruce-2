@@ -1,0 +1,36 @@
+{
+  "name": "Tracker Académico",
+  "short_name": "Tracker",
+  "description": "Gestor de trabajos académicos y cobros",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f0f13",
+  "theme_color": "#7c6fff",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "education"],
+  "shortcuts": [
+    {
+      "name": "Nuevo Trabajo",
+      "short_name": "Nuevo",
+      "description": "Agregar un nuevo trabajo",
+      "url": "./index.html#nuevo",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
